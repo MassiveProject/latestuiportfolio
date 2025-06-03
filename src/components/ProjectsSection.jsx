@@ -26,7 +26,7 @@ const projects = [
     image: "/projects/project3.png",
     tags: ["Figma", "HRIS", "Website"],
     demoUrl:
-      "https://www.figma.com/design/ZHHagAtWFGclhZXtwtz7iV/Kawandaya?node-id=339-2573&t=3eTKMUMD00NK4fbF-1",
+      "https://www.figma.com/proto/giHztQNgedVOMqzK7EiAuI/Portfolio?node-id=90-518&t=E2WK7Lw5TtYWhNp8-0&scaling=scale-down-width&content-scaling=fixed&page-id=78%3A1158",
   },
 ];
 

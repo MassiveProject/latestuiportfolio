@@ -26,7 +26,7 @@ export const Navbar = () => {
   return (
     <nav
       className={cn(
-        "fixed w-full z-40 transition-all duration-300",
+        "fixed w-full z-40 bg-black bg-opacity-100 backdrop-blur-md transition-all duration-300",
         isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-xs" : "py-5"
       )}
     >
@@ -35,10 +35,11 @@ export const Navbar = () => {
           className="text-xl font-bold text-primary flex items-center"
           href="#hero"
         >
-          <span className="relative z-10">
+          {/* <span className="relative z-10">
             <span className="text-glow text-foreground"> William </span>{" "}
             Portfolio
-          </span>
+          </span> */}
+          <img src="/projects/mylogo.png" alt="logo" className="h-8 w-auto" />
         </a>
 
         {/* desktop nav*/}
